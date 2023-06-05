@@ -2,7 +2,7 @@ import { Apikey } from "../Store/Apikey";
 
 const CityApi = (city) => {
 
-    const apiUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=10&appid=${Apikey}`;
+    const apiUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=10&appid=${Apikey}`;
     const fetchData = async () => {
         try {
             console.log('fetching city lists');

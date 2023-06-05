@@ -2,7 +2,7 @@ import { useContext, useEffect } from "react";
 import { Apikey } from "./Apikey";
 
 const Hourforecast = (lat,lon,unit) => {
-    const apiUrl = `http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&units=${unit}&appid=${Apikey}`;
+    const apiUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&units=${unit}&appid=${Apikey}`;
 
     const fetchData = async () => {
         try {
