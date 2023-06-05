@@ -43,3 +43,9 @@ span.unit{
 svg{
   color:rgb(255, 220, 138)
 }
+
+@media (max-width: 768px) {
+*{
+  font-size: 16px;
+}
+}

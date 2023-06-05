@@ -12,7 +12,7 @@ font-size:14px !important;
 const Footer = () => {
   return (
     <Wrap>
-      <p>WeatherSho | Copyright © 2023 by Fathima Shifa KV</p>
+      <p>WeatherSho | Copyright © 2023 by Shifa KV</p>
     </Wrap>
   )
 }

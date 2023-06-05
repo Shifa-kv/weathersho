@@ -59,12 +59,14 @@ const Header = () => {
                     <Grid item md={6}>
                         <Link to="/"><h4 className="logo">WeatherSho</h4></Link>
                     </Grid>
-                    <Grid item md={6} className="headerRight" position="relative">
+                    <Grid item md={3} className="headerRight" position="relative">
                         <button name='mylocation' onClick={handleLocate}><Geo size="30px" /></button>
                         <div className="unitSelector">
                             <button name="unitbtn" className="active" value="metric" onClick={handleUnitchange}>°C</button>
                             <button name="unitbtn" value="imperial" onClick={handleUnitchange}>°F</button>
                         </div>
+                    </Grid>
+                    <Grid item md="3" xs={12} className="headerRight" position="relative">
                         <TextField className="searchbar" variant="outlined" placeholder="Search"
                             InputProps={{ endAdornment: <Search />, }}
                             onChange={handleChange}

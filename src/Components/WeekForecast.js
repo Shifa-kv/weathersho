@@ -40,6 +40,7 @@ const WeekForecast = (props) => {
         return (
           <div className="WeekForecast" key={index}>
             <div className='weekDay'>{props.timeFunction(res[0])[2]}</div>
+            <div className='weekHours'>
             {res[1].map((hourData, i) => (
               <div key={i}>
                 <p className="time">{props.timeFunction(hourData.dt_txt)[0]}</p>
@@ -51,6 +52,7 @@ const WeekForecast = (props) => {
               </div>
             )
             )}
+            </div>
           </div>
 
         )

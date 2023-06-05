@@ -23,6 +23,10 @@ const Wrapper = styled.section `
     margin-right: 10px;
     border: 1px solid rgb(59, 79, 108);
     border-radius: 5px;
+    width: 100%;
+}
+.searchbar > div {
+	width: 100%;
 }
 input {
     padding: 5px 10px !important;
@@ -78,7 +82,12 @@ button{
 }
 
 
-/* toggle */
+@media (max-width: 768px) {
+  .searchbar{
+    margin-bottom:10px;
+  }
+  
+}
 
 
 `
