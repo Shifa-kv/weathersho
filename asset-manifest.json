@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/weathersho/static/css/main.feecabe5.css",
-    "main.js": "/weathersho/static/js/main.737aa43b.js",
+    "main.js": "/weathersho/static/js/main.5fce58bd.js",
     "static/js/787.13d76ca7.chunk.js": "/weathersho/static/js/787.13d76ca7.chunk.js",
     "static/media/rain.jpg": "/weathersho/static/media/rain.a3ff818a56fccb2c13b1.jpg",
     "static/media/shower-rain.jpg": "/weathersho/static/media/shower-rain.5af91311b21019d9bfeb.jpg",
@@ -16,11 +16,11 @@
     "static/media/sky.jpg": "/weathersho/static/media/sky.4073c3b0f947850f7478.jpg",
     "index.html": "/weathersho/index.html",
     "main.feecabe5.css.map": "/weathersho/static/css/main.feecabe5.css.map",
-    "main.737aa43b.js.map": "/weathersho/static/js/main.737aa43b.js.map",
+    "main.5fce58bd.js.map": "/weathersho/static/js/main.5fce58bd.js.map",
     "787.13d76ca7.chunk.js.map": "/weathersho/static/js/787.13d76ca7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.feecabe5.css",
-    "static/js/main.737aa43b.js"
+    "static/js/main.5fce58bd.js"
   ]
 }
