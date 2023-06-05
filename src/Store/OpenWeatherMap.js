@@ -55,8 +55,8 @@ const WeatherProvider = ({ children }) => {
       }
     };
     fetchData();
-    // const interval = setInterval(fetchData, 60000);
-    // return () => clearInterval(interval);
+    const interval = setInterval(fetchData, 60000);
+    return () => clearInterval(interval);
 
   }, [coord.lat, coord.lon, unit]);
 
